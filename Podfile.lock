@@ -29,20 +29,20 @@ PODS:
     - box-ios-sdk-v2/no-arc (= 1.2.3)
   - box-ios-sdk-v2/no-arc (1.2.3)
   - CocoaHTTPServer (2.3)
-  - GoogleAPIClientForREST/Core (1.3.11):
+  - GoogleAPIClientForREST/Core (1.4.1):
     - GTMSessionFetcher (>= 1.1.7)
-  - GoogleAPIClientForREST/Drive (1.3.11):
+  - GoogleAPIClientForREST/Drive (1.4.1):
     - GoogleAPIClientForREST/Core
     - GTMSessionFetcher (>= 1.1.7)
   - GRKArrayDiff (2.2.1)
   - GTMAppAuth (0.7.1):
     - AppAuth (~> 0.95)
     - GTMSessionFetcher (~> 1.1)
-  - GTMSessionFetcher (1.3.1):
-    - GTMSessionFetcher/Full (= 1.3.1)
-  - GTMSessionFetcher/Core (1.3.1)
-  - GTMSessionFetcher/Full (1.3.1):
-    - GTMSessionFetcher/Core (= 1.3.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
   - InAppSettingsKit (2.14)
   - MarqueeLabel (4.0.2)
   - MediaLibraryKit-prod (2.6.9):
@@ -127,19 +127,20 @@ SPEC REPOS:
     - MarqueeLabel
     - MediaLibraryKit-prod
     - MetaDataFetcherKit
-    - MobileVLCKit
     - "NSData+Base64"
     - OBSlider
     - OneDriveSDK
     - PAPasscode
     - SimulatorStatusMagic
     - SwiftLint
-    - TVVLCKit
     - upnpx
     - VLC-WhiteRaccoon
-    - VLCMediaLibraryKit
     - XKKeychain
     - xmlrpc
+  https://github.com/naxa-jp/Specs.git:
+    - MobileVLCKit
+    - TVVLCKit
+    - VLCMediaLibraryKit
 
 EXTERNAL SOURCES:
   box-ios-sdk-v2:
@@ -180,15 +181,15 @@ SPEC CHECKSUMS:
   Base32: 163c298644d184e89ca4e00a996bad6bf5166390
   box-ios-sdk-v2: 9423bd75373350ea40b92f3d2d6e89f81d96d634
   CocoaHTTPServer: 07df8b05a8bde406fe367d22c90a24a2fd4ca49f
-  GoogleAPIClientForREST: 0f19a8280dfe6471f76016645d26eb5dae305101
+  GoogleAPIClientForREST: e50dc3267b3131ee3a25e707c10204f6bec15ae9
   GRKArrayDiff: 7522e374edcc55c1731a219e428847164b04cfab
   GTMAppAuth: c5e41aaf039ac1ccc41543e6ea2ef7abd255ad41
-  GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
   InAppSettingsKit: 3887d126d00a4ae468692deaaa7a8989e6b97fb7
   MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
   MediaLibraryKit-prod: 718b52b55cb40b479eeae29fb5cc0cfbbbce0191
   MetaDataFetcherKit: 071c290d7b6b393e8d242c3a14594abfe8ae44c3
-  MobileVLCKit: 34a4d22c48ea48a36c2a6fdf290d4ea094869ac0
+  MobileVLCKit: 83fcc429e852c1e85a1f2fc2c6c3cccaba37eb89
   "NSData+Base64": 4e84902c4db907a15673474677e57763ef3903e4
   ObjectiveDropboxOfficial: b9e95d98e3ff2baa0cd86aea7c8322a712f356d6
   OBSlider: 490f108007bfdd5414a38650b211fe403a95b8a0
@@ -197,13 +198,13 @@ SPEC CHECKSUMS:
   PAPasscode: b408fb87c530cad58a554e26482e87dbb14b7bc2
   SimulatorStatusMagic: 28d4a9d1a500ac7cea0b2b5a43c1c6ddb40ba56c
   SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
-  TVVLCKit: f638dcaf37a6ba4027161cbc27be86f0cb02d2f7
+  TVVLCKit: e46ebca333ee92b8a5d9d759372cf30ad0cc87f7
   upnpx: ad8791295befdc0a0702089daf067d21c76194fc
   VLC-WhiteRaccoon: 1e7e59b0568959135a89d09c416d1e11a5d9a986
-  VLCMediaLibraryKit: da85675d49cd8697337613c0d6028c5e3894c036
+  VLCMediaLibraryKit: 1bbf01581cd584aa2b0406aa715066495562d38e
   XKKeychain: 852ef663c56a7194c73d3c68e8d9d4f07b121d4f
   xmlrpc: 109bb21d15ed6d108b2c1ac5973a6a223a50f5f4
 
-PODFILE CHECKSUM: ed69f35e8d88d494c80d4d35126138d9322044ce
+PODFILE CHECKSUM: 92006db113efc9f3f58c7f2349f978561105ef2f
 
 COCOAPODS: 1.9.2
