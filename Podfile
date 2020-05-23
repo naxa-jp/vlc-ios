@@ -1,4 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/naxa-jp/Specs.git'
+
 install! 'cocoapods', :deterministic_uuids => false
 inhibit_all_warnings!
 
